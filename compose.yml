@@ -4,3 +4,5 @@ services:
     volumes:
       - .:/usr/src/app
     tty: true
+    ports:
+      - "8089:8089"
